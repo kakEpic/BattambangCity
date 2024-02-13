@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkturquoise;
+}
+table{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(19, 160, 113);
+}
+th{
+    color: darkblue;
+}
+.head{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.head p:first-child{
+    text-align: center;
+    color: gold;
+    text-shadow: 0 0 3px gray;
+}
+.head p:last-child{
+    text-align: right;
+    color: red;
+}
+header > img {
+    width: 100%;
+}
+.title{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.text{
+    color: gold;
+    margin-left: 10%;
+    font-size: 1.7rem;
+    text-shadow: 0px 0px 2px black;
+}
+.card{
+    margin: 10px 0;
+    clear: both;
+}
+.card2{
+    margin: 10px 0;
+    clear: both;
+}
+.card2 > img{
+    float: right;
+    height: 300px;
+    width: 300px;
+    margin: 5px
+}
+.card > img{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 5px
+}
+.card, .card2 > p{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    word-spacing: 4px;
+}
+
+h1, h2{
+    text-align: center;
+    color: blue;
+    margin: 2rem 0;
+}
